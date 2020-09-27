@@ -30,23 +30,23 @@ nav{
 .header_links ul li{list-style: none; display: inline-block; margin: 30px; text-align: center;}
 .header_links ul li a{text-decoration: none; font-size: 16pt; color: black}
 .header_links li:hover{font-weight: bold;}
+
+
+/*---------------------
+Cover
+---------------------*/
 .cover{
   background-color: #111
   position: sticky;
   display: flex;
   height: 70%;
-  background-image: url(https://source.unsplash.com/user/ideasboom);
+  background-image: url(https://picsum.photos/1900/700);
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center center;
   background-attachment:fixed;
 }
-
-
-/*---------------------
-Cover
----------------------*/
 .cover_caption{display: table; height: 100%; width: 100%; position: relative; z-index: 1;}
 .cover_caption_copy{
   display: table-cell;
