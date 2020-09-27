@@ -106,6 +106,22 @@ Banner
 
 
 /*---------------------
+Parallax Banner
+---------------------*/
+.parallaxbanner{width: 100%; height: 300px; background-color: #fff; text-align: center; padding: 10px 0px; display: table;
+  background-image: url(https://picsum.photos/1900/300);
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-attachment:fixed;
+
+}
+.parallaxbanner_copy{display: table-cell; vertical-align: middle; font-size: 25px; font-weight: bolder; color: #fff; text-shadow: 0px 0px 17px #000;}
+.parallaxbanner_filter{background-color: #000; opacity: 0.5; position: absolute; width: 100%; height: 100%;}
+
+
+/*---------------------
 Footer
 ---------------------*/
 .footer{background-color: #333; padding: 30px; color: #fff; margin-top: 40px; display: flex;}
