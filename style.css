@@ -103,6 +103,12 @@ Banner
 .banner_copy_text p{font-size: 15pt;}
 
 
+/*---------------------
+Banner
+---------------------*/
+.footer{background-color: #333; padding: 30px; color: #fff; margin-top: 40px; display: flex;}
+.footer_links{flex: 1; text-align: right;}
+
 
 /*---------------------
 Table
