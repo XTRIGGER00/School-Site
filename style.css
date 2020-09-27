@@ -1,0 +1,169 @@
+body{background: #eee}
+html, body{height: 100%;}
+
+
+/*---------------------
+General
+---------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/*---------------------
+Header
+---------------------*/
+nav{
+  width: 100%;
+  position: sticky;
+  margin: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 2px
+}
+.header_logo{flex-basis: 20%; margin: 30px}
+.header_links{flex: 1; text-align: right;}
+.header_links ul li{list-style: none; display: inline-block; margin: 30px; text-align: center;}
+.header_links ul li a{text-decoration: none; font-size: 16pt; color: black}
+.header_links li:hover{font-weight: bold;}
+.cover{
+  background-color: #111
+  position: sticky;
+  display: flex;
+  height: 70%;
+  background-image: url(https://source.unsplash.com/user/ideasboom);
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-attachment:fixed;
+}
+
+
+/*---------------------
+Cover
+---------------------*/
+.cover_caption{display: table; height: 100%; width: 100%; position: relative; z-index: 1;}
+.cover_caption_copy{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 24pt;
+  color: #fff
+}
+.cover_caption_copy h2{font-size: 26pt; margin-top: 9px}
+.cover_filter{background-color: #000; width: 100%; height: 100%; position: absolute; z-index: 0; opacity: 0.5;}
+.button{display: inline-block; background: #fff; color: #000; padding: 10px 20px; border-radius: 3px; text-decoration: none; font-size: 13pt; box-shadow: 0px 0px 12px #222;}
+
+
+/*---------------------
+Content
+---------------------*/
+.content{
+  background-color: #fff;
+  position: sticky;
+  display: flex;
+  width: 100%;
+  height: 30%;
+  font-size: 15pt;
+}
+#text{margin: 50px; line-height: 30px; text-align: justify;}
+
+
+/*---------------------
+Cards
+---------------------*/
+.cards{max-width: 1200px; margin: 40px auto}
+.card{width: 30%; margin: 0 1.5%; background-color: #fff; box-shadow: 0px 0px 20px #666; float: left;}
+.card_image{width: 100%; height: auto;}
+.card_copy{padding: 15px 20px;}
+.card_copy p{font-size: 14.5pt; line-height: 17pt;}
+.card_copy h3{margin-bottom: 13px; font-size: 18pt}
+
+
+/*---------------------
+Banner
+---------------------*/
+.banner{background: #fff; height: 40%;}
+.banner_image{width: 30%; float: left; height: 100%;
+  background-image: url(https://source.unsplash.com/category/nature/400x400);
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+}
+.banner_copy{width: 70%; float: left; height: 100%; display: table;}
+.banner_copy_text{display: table-cell; vertical-align: middle; padding: 30px; line-height: 30px}
+.banner_copy_text h3{font-size: 30pt; margin-bottom: 13px;}
+.banner_copy_text h4{font-size: 18pt; margin-bottom: 13px;}
+.banner_copy_text p{font-size: 15pt;}
+
+
+
+/*---------------------
+Table
+---------------------*/
+table, th, td{border: 1px solid black; width: 50%; border-collapse: collapse; margin: 20px}
+th,td{padding: 15px; min-width: 70px}
+tr:nth-child(even){background-color: #eee}
+tr:nth-child(odd){background-color: #fff}
+table th{background-color: black; color: white}
+table{width: 97%}
+.table_section{padding: 12px; background-color: #fff; margin: 12px;display: flex;}
+.table_container{width: 50%}
+.table_description_container{flex: 1; margin: 20px; line-height: 20pt}
+.table_description_container p{; font-size: 15pt}
+
+
+/*---------------------
+Audio
+---------------------*/
+.audio{width: 100%; border-radius: 18px;}
+.audio_section{padding: 17px;margin: 12px; background-color: #fff}
+.audio_description{margin: 12px 2px}
+.audio_description p{font-size: 15pt}
+.audio_text{line-height: 23pt; display: flex;}
+.audio_text_left{width: 50%}
+.audio_text_right{flex: 1; width: 50%; text-align: left;}
+
+
+/*---------------------
+Image
+---------------------*/
+.image_section{padding: 17px; margin: 12px; background-color: #fff; display: flex;}
+.image{margin: 9pt}
+.image_descripion{flex: 1; margin: 12px 25px; line-height: 20pt;}
+.image_descripion p{font-size: 15pt;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+Clearfix
+---------------------*/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
