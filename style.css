@@ -106,7 +106,7 @@ Banner
 ---------------------*/
 .banner{background: #fff; height: 40%;}
 .banner_image{width: 30%; float: left; height: 100%;
-  background-image: url(https://source.unsplash.com/category/nature/400x400);
+  background-image: url(https://picsum.photos/400/400);
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
