@@ -191,6 +191,14 @@ Image
 
 
 
+@media (max-width: 767px){
+  .card_copy p {font-size: 30pt}
+}
+
+
+
+
+
 
 
 
