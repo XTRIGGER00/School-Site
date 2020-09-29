@@ -94,7 +94,7 @@ Content
 Cards
 ---------------------*/
 .cards{max-width: 1200px; margin: 40px auto}
-.card{width: 30%; margin: 0 1.5%; background-color: #fff; box-shadow: 0px 0px 20px #666; float: left;}
+.card{width: 30%; margin: 0 1.5%; background-color: #fff; box-shadow: 0px 0px 20px #aaa; float: left;}
 .card_image{width: 100%; height: auto;}
 .card_copy{padding: 15px 20px;}
 .card_copy p{font-size: 14.5pt; line-height: 17pt;}
@@ -192,7 +192,7 @@ Image
 
 
 @media (max-width: 767px){
-  .card_copy p {font-size: 30pt}
+
 }
 
 
