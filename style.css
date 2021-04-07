@@ -19,7 +19,7 @@ nav{
   width: 100%;
   position: sticky;
   margin: 0;
-  z-index: 1;
+  z-index: 999;
   display: flex;
   align-items: center;
   background: #fff;
@@ -182,7 +182,7 @@ table{width: 97%}
 .table_section{padding: 12px; background-color: #fff; margin: 12px;display: flex;}
 .table_container{width: 50%}
 .table_description_container{flex: 1; margin: 20px; line-height: 20pt}
-.table_description_container p{; font-size: 15pt}
+.table_description_container p{font-size: 15pt}
 
 
 /*---------------------
